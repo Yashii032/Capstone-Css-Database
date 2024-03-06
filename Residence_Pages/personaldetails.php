@@ -35,7 +35,7 @@
                             </div>
                         </div>
 
-                        <form class="form bg-white p-4" action="personaldetails_process.php" method="post">
+                        <form class="form bg-white p-4" action="personaldetails_process.php" method="post" enctype="multipart/form-data">
 
                             <!--Given name-->
                             <div class="form-group">

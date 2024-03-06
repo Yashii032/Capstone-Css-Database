@@ -142,20 +142,14 @@ animationSelect.addEventListener("change", () => {
 });
 
 //start function for other_purpose //
-document.addEventListener("DOMContentLoaded", function () {
-  const selectElement = document.querySelector(".form-select");
-  const otherDiv = document.querySelector(".other");
 
-  selectElement.addEventListener("change", function () {
-    if (this.value === "14") {
-      // Check if the value is "14" (Other) if true
-      otherDiv.style.display = "block";
-    } else {
-      // if false
-      otherDiv.style.display = "none";
-    }
-  });
-});
+// function OtherFunction() {
+//   var x = document.getElementById("mySelect").value;
+//  if(x == "Other")  {
+//   // document.getElementById('demo_other').style.display =  'block';
+//   alert(x);
+//  }
+// }
 //end function for other_purpose //
 
 //start printableArea//
