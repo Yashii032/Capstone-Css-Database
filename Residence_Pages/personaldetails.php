@@ -24,17 +24,6 @@
                 <div class="card-body bg-white">
                     <div class="container">
 
-                        <div class="d-flex px-5">
-                            <div class="">
-                                <h5>Status:</h5>
-                            </div>
-                            <div class="ms-auto g-2">
-                                <label>Not yet validated?</label>
-                                <button type="submit" class="btn"
-                                    style="background-color: #37b5b6; color: #f2f597">Submit for Validation</button>
-                            </div>
-                        </div>
-
                         <form class="form bg-white p-4" action="personaldetails_process.php" method="post" enctype="multipart/form-data">
 
                             <!--Given name-->

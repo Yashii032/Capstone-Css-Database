@@ -104,7 +104,6 @@
           informed with barangay announcements and updates.
           <br />
         </p>
-        <a class="btn" style="background-color: #37b5b6; color: #f2f597" href="#!">Newsletter</a>
       </div>
     </div>
     <!-- Call to Action-->

@@ -25,24 +25,24 @@ else{
 }
 
 
- echo $current_purpose;
- echo $appointment_date;
- echo $payment; 
+//  echo $current_purpose;
+//  echo $appointment_date;
+//  echo $payment; 
 
 
-//  //Insert the data into the database
-//  $sql = "INSERT INTO certificate (purpose, appointment_date, payment) VALUES ('$purpose', '$appointment_date', '$payment')";
+ //Insert the data into the database
+ $sql = "INSERT INTO certificate (purpose, appointment_date, payment) VALUES ('$purpose', '$appointment_date', '$payment')";
 
 //  if ($conn->query($sql) === TRUE) {
 //      echo "New record created successfully";
 //  } else {
 // echo "Error: " . $sql . "<br>" . $conn->error;
 // }
-//  // Redirect to multistepsform.php
+ // Redirect to multistepsform.php
 //  header('Location: multistepsform.php');
 //  exit;
 
-// // Close the database connection
-// $conn->close();
+// Close the database connection
+$conn->close();
 
 ?>
